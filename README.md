@@ -94,3 +94,5 @@ curl "https://<region>-<project>.cloudfunctions.net/runBackupNow?key=<BACKUP_KEY
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+Maintained by t
