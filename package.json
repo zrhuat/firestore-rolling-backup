@@ -1,0 +1,14 @@
+{
+  "name": "firestore-rolling-backup",
+  "version": "1.0.0",
+  "description": "Automatic rolling Firestore backups to Cloud Storage (hourly + daily windows) as plain JSON, with a manifest and an on-demand trigger. Drop-in Cloud Functions.",
+  "main": "index.js",
+  "keywords": ["firebase", "firestore", "backup", "cloud-functions", "cloud-storage", "snapshot", "disaster-recovery"],
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "peerDependencies": {
+    "firebase-admin": ">=11",
+    "firebase-functions": ">=4"
+  },
+  "files": ["index.js", "README.md", "LICENSE"]
+}
